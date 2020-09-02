@@ -1,5 +1,5 @@
 # Packman
-The data usage monitoring GUI for linux nobody decided to make until now
+The multi platform data usage monitoring GUI no one decided to make until now 
 
 ![preview1](images/preview.png)
 ![tray](images/tray.png)
@@ -11,16 +11,15 @@ The data usage monitoring GUI for linux nobody decided to make until now
 
 You will need pyuic5 installed on your system for    `makegui.py` to work properly, otherwise it has to be done manually.
 
-## Installation (Installations not ready yet) 
-`make gui && make build`
+## Running
+`make run` on systems with make installed
 
-## Running without installation (use this instead)
-`make run`
+On Windows, run start.bat or type `py packman\packman.py`
 
 ### Installing dependencies with make
 >make deps
 
-### Installing dependencies the old fashioned way
+### Installing dependencies manually
 >python3 -m pip install -r requirements.txt
 
 # How to use

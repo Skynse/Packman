@@ -1,0 +1,12 @@
+##########################
+Making Changes to the code
+##########################
+
+Any changes must abide by the flake8 style guide.
+Note that any python file in gui.py can be ignored since they are generated.
+
+##########################
+Making Pull Requests
+##########################
+
+Before pushing the code and creating a PR, use `make clean` to remove the generated gui files

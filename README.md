@@ -22,7 +22,7 @@ You will need pyuic5 installed on your system for    `makegui.py` to work proper
 >python3 -m pip install -r requirements.txt
 
 # How to use
-The backlog level is a field that is subtracted from the GB and MiB values
+The backlog level is a field that is subtracted from the GB and MB values
 This was added in case the user wanted to keep track of how much data they used beyond a threshold or values that were larger and therefore harder to keep track of.
 
 `makegui.py`: This creates python files in the gui directory of any ui file in the ui directory

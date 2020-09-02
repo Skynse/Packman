@@ -32,7 +32,7 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         gb = round((data / 1024 ** 3) - backlog / 1024, 2)
         mb = round((data / 1024 ** 2) - backlog, 2)
         self.val_gb.setText(str(gb) + "GB")
-        self.val_mb.setText(str(mb) + "MiB")
+        self.val_mb.setText(str(mb) + "MB")
 
 
 if __name__ == "__main__":

@@ -15,7 +15,7 @@ You will need pyuic5 installed on your system for    `makegui.py` to work proper
 `make gui && make build`
 
 ## Running without installation (use this instead)
-`make gui && make run`
+`make run`
 
 ### Installing dependencies with make
 >make deps

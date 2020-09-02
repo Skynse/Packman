@@ -2,6 +2,8 @@
 The data usage monitoring GUI for linux nobody decided to make until now
 
 ![preview1](images/preview.png)
+![tray](images/tray.png)
+
 ## Requirements
 `pyqt5`
 

@@ -30,7 +30,8 @@ This was added in case the user wanted to keep track of how much data they used 
 Note that this app makes use of the psutil `net_io_counters` method to grab data based on the network interface 
 
 ## Milestone
-- [ ] Minimize to tray option
+- [x] Minimize to tray option
 - [ ] Graph feature
 - [ ] Ability to install
-- [ ] Data uploaded view if needed
+- [x] Data uploaded view
+- [ ] Data usage limits/alarms

@@ -1,10 +1,6 @@
-def filter(data):
-    """
-    Shorten the megabit values when they get too long.
+def to_gb(bytes):
+    return round(bytes / 1024 ** 3, 2)
 
-    NOTE: This is meant to be a data filter in case it
-    is decided that only one view should be made available
-    in the future, being, the megabit label.
-    """
 
-    pass
+def to_mb(bytes):
+    return round(bytes / 1024 ** 2, 2)

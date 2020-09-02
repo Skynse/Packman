@@ -13,6 +13,7 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         super(MainWindow, self).__init__(parent=parent)
         self.setupUi(self)
         self.tray_icon = QtWidgets.QSystemTrayIcon(self)
+        self.setFixedSize(self.size())
         self.tray_icon.setIcon(
             self.style().standardIcon(QtWidgets.QStyle.SP_ComputerIcon)
         )

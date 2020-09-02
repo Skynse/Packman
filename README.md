@@ -24,10 +24,9 @@ On Windows, run packman.bat or type `py packman\packman.py`
 >python3 -m pip install -r requirements.txt
 
 # How to use
-```
 The backlog level is a field that is subtracted from the GB and MB values
 This was added in case the user wanted to keep track of how much data they used beyond a threshold or values that were larger and therefore harder to keep track of. For example, if your Download is 550 MB, setting a backlog of 550 will reset it to 0 and but will continue increasing like before.
-```
+
 `makegui.py`: This creates python files in the gui directory of any ui file in the ui directory (for contributors)
 
 Note that this app makes use of the psutil `net_io_counters` method to grab data based on the network interface 

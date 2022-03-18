@@ -1,5 +1,5 @@
 # Packman
-The multi platform data usage monitoring GUI no one decided to make until now 
+This project was created because I used to use a limited data plan and needed a quick way to find out how much data I used in a single boot session.
 
 ![preview1](images/preview.png)
 ![tray](images/tray.png)
